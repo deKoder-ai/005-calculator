@@ -194,7 +194,12 @@ btnsContainer.addEventListener('click', (event) => {
 console.log(displayText);
 
 
+// to do
+// - prevent user from inputting 
+//  more digits after an equals operation
+// - round numbers to a total number of digits
+// - change % button to delete last input button
+// - fix invert bug
+
 
 // changed
-// - display error if divide by 0
-// - began logic for operators and equals
