@@ -1,0 +1,71 @@
+<!-- index.html template -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- research more about location in html for external scripts + async/defer? -->
+  <!-- defer loads script but prevents from running until html is parsed -->
+  <script src="./js/javascript.js" defer></script>
+  <title>Document</title>
+</head>
+
+<body>
+  
+
+  <!-- links -->
+  <!-- target blank opens in new tab - rel prevents new website from knowing where the referral came from -->
+  <!-- <a href="https://xyz.com" target="_blank" rel="noopener noreferrer">Write text here</a> -->
+  <!-- img -->
+  <!-- <img src="../img/frog_soup.png"
+      alt="A picture of an incredibly delicious frog soup" 
+      width="350" 
+      height="238"> -->
+
+  <div id="container">
+    <div id="calc_border">
+      <div id="calc_container">
+        <div id="display">
+          <p id="display_text">123 + 456</p>
+        </div>
+        <div id="btns_container">
+          <div class="btns_row">
+            <button class="btn tool" id="btn_clear">AC</button>
+            <button class="btn tool" id="btn_invert">+/1</button>
+            <button class="btn tool" id="idk">%</button>
+            <button class="btn operator" id="btn_divide">/</button>
+          </div>
+          <div class="btns_row">
+            <button class="btn numbers" id="btn_7">7</button>
+            <button class="btn numbers" id="btn_8">8</button>
+            <button class="btn numbers" id="btn_9">9</button>
+            <button class="btn operator" id="btn_multiply">x</button>
+          </div>
+          <div class="btns_row">
+            <button class="btn numbers" id="btn_4">4</button>
+            <button class="btn numbers" id="btn_5">5</button>
+            <button class="btn numbers" id="btn_6">6</button>
+            <button class="btn operator" id="btn_minus">-</button>
+          </div>
+          <div class="btns_row">
+            <button class="btn numbers" id="btn_1">1</button>
+            <button class="btn numbers" id="btn_2">2</button>
+            <button class="btn numbers" id="btn_3">3</button>
+            <button class="btn operator" id="btn_add">+</button>
+          </div>
+          <div class="btns_row">
+            <button class="btn numbers" id="btn_0">0</button>
+            <button class="btn numbers" id="btn_decimal">.</button>
+            <button class="btn operator" id="btn_equals">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+</body>
+
+</html>
