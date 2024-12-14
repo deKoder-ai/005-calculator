@@ -107,6 +107,9 @@ body {
     font-weight: 600;
     color: rgb(0, 0, 0);
 }
+.btn:hover {
+    cursor: pointer;
+}
 
 #display {
     font-size: 46px;
